@@ -2,20 +2,24 @@ package Ej_Euler;
 
 public class Problema5 {
     public static void problema5() {
-        long fin = 999999999;
+        int fin = 20;
+        long num = 20;
+        boolean encontrado = false;
 
-        for (int i = 0; i <=fin; i++){
-            boolean comprobar;
-            while(comprobar){
-                for (int j=0;j<=i;j++){
-                    if (i%j==0){
-                        comprobar = true;
-                    }else {
-                        comprobar = false;
-                    }
+        while (!encontrado) {
+            encontrado = true;
+            for (int i = 1; i <= fin; i++) {
+                if (num % i != 0) {
+                    encontrado = false;
+                    break;
                 }
             }
+            if (!encontrado) {
+                num += 1;
+            }
         }
-    }
-}
 
+        System.out.println(num);
+    }
+
+}
