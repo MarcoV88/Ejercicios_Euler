@@ -16,6 +16,10 @@ public class Main {
         System.out.println("6. Diferencia entre la suma de los cuadrados del 1 al 100 y el cuadrado de la suma del 1 al 100");
         System.out.println("7. Número primo 10001");
         System.out.println("8. Encuentra el mayor producto de trece dígitos consecutivos en el número de 1000 dígitos dado");
+        System.out.println("9. Terna pitagórica");
+        System.out.println("10. Primos debajo de 2 millones");
+        System.out.println("11. ");
+        System.out.println("12. Primer número triangular con 500 divisores");
         System.out.println("100. Ej_profe");
 
         System.out.println("Elija una opción: ");
@@ -47,6 +51,18 @@ public class Main {
                 break;
             case 8:
                 Problema8.problema8();
+                break;
+            case 9:
+                Problema9.problema9();
+                break;
+            case 10:
+                Problema10.problema10();
+                break;
+            case 11:
+                Problema11.problema11();
+                break;
+            case 12:
+                Problema12.problema12();
                 break;
             case 100:
                 Ej_profe.ej_profe();
