@@ -1,6 +1,5 @@
 package Ej_Euler;
 
-
 import java.util.Scanner;
 
 public class Main {

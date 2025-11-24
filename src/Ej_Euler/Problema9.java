@@ -1,6 +1,5 @@
 package Ej_Euler;
 
-
 public class Problema9 {
     public static void problema9(){
         int a;
