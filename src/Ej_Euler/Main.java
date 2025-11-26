@@ -20,7 +20,9 @@ public class Main {
         System.out.println("10. Primos debajo de 2 millones");
         System.out.println("11. ");
         System.out.println("12. Primer número triangular con 500 divisores");
-        System.out.println("100. Ej_profe");
+        System.out.println("227. Juego 'The Case'");
+        System.out.println("1000. Ej_profe");
+        System.out.println();
 
         System.out.println("Elija una opción: ");
         opcion = sc.nextInt();
@@ -64,7 +66,10 @@ public class Main {
             case 12:
                 Problema12.problema12();
                 break;
-            case 100:
+            case 227:
+                Problema227.problema227();
+                break;
+            case 1000:
                 Ej_profe.ej_profe();
                 break;
             default:
