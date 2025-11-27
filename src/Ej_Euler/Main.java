@@ -22,7 +22,7 @@ public class Main {
         System.out.println("12. Primer número triangular con 500 divisores");
         System.out.println("227. Juego 'The Case'");
         System.out.println("1000. Ej_profe");
-        System.out.println();
+        System.out.println("1001. Comprobador de DNI");
 
         System.out.println("Elija una opción: ");
         opcion = sc.nextInt();
@@ -71,6 +71,9 @@ public class Main {
                 break;
             case 1000:
                 Ej_profe.ej_profe();
+                break;
+            case 1001:
+                Ejercicio2profe.ejercicio2profe();
                 break;
             default:
                 System.out.println("Opción no válida");
