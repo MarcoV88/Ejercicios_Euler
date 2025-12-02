@@ -75,6 +75,9 @@ public class Main {
             case 1001:
                 Ejercicio2profe.ejercicio2profe();
                 break;
+            case 1002:
+                Ejercicio3profe.cajeroAutomatico();
+                break;
             default:
                 System.out.println("Opción no válida");
                 break;

@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Ejercicio3profe {
-    public static void main(String[] args) {
+    public static void cajeroAutomatico() {
         int billete500 =0;
         int billete200=0;
         int billete100 =0;
